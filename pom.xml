@@ -19,6 +19,7 @@
 		<spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
 	</properties>
 
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -49,6 +50,13 @@
 			<artifactId>spring-cloud-starter-security</artifactId>
 		</dependency>
 
+		<!-- ================================================== STARTER JASYPT -->
+		<dependency>
+			<groupId>com.github.ulisesbocchio</groupId>
+			<artifactId>jasypt-spring-boot-starter</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -70,6 +78,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>properties-server</finalName>
 	</build>
 
 </project>
