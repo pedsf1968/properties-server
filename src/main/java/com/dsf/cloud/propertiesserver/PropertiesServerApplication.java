@@ -1,4 +1,4 @@
-package com.dsf.cloud.serverproperties;
+package com.dsf.cloud.propertiesserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @EnableConfigServer
 @SpringBootApplication
-public class ServerPropertiesApplication {
+public class PropertiesServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServerPropertiesApplication.class, args);
+		SpringApplication.run(PropertiesServerApplication.class, args);
 	}
 
 }

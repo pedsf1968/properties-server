@@ -1,10 +1,10 @@
-package com.dsf.cloud.serverproperties;
+package com.dsf.cloud.propertiesserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServerPropertiesApplicationTests {
+class PropertiesServerApplicationTests {
 
 	@Test
 	void contextLoads() {

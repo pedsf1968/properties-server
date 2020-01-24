@@ -14,4 +14,5 @@ COPY --from=build /srv/target/properties-server.jar /srv/properties-server.jar
 COPY  ./properties-repository/*.properties /srv/properties-repository/
 WORKDIR /srv
 RUN sh -c 'touch properties-server.jar'
+EXPOSE 8888
 ENTRYPOINT ["java","-jar","properties-server.jar"]
