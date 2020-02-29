@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.dsf.cloud</groupId>
-	<artifactId>server-properties</artifactId>
+	<artifactId>properties-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>server-properties</name>
+	<name>properties-server</name>
 	<description>Spring Cloud Server Properties</description>
 
 	<properties>
