@@ -22,4 +22,3 @@ RUN sh -c 'touch properties-server.jar'
 EXPOSE 8888
 
 ENTRYPOINT ["java","-jar","properties-server.jar"]
-
