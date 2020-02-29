@@ -1,6 +1,10 @@
 # server-properties
 Spring Boot property file server
 
+[![Build Status](https://travis-ci.com/pedsf1968/properties-server.svg?branch=master)](https://travis-ci.com/pedsf1968/properties-server)
+![GitHub](https://img.shields.io/github/license/pedsf1968/properties-server)
+
+#Object
 Server that send after identification with login/password the properties file requested.
 Get file from local or github repository. 
 

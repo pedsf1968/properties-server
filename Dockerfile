@@ -1,6 +1,5 @@
-
-# properties-server : Dockerfile
 #
+# properties-server : Dockerfile
 #
 # Build stage
 #
